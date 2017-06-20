@@ -1,4 +1,2 @@
-function myFunction() {
-    var btn = document.createElement("BUTTON");
-    document.body.appendChild(btn);
-}
+var btn = document.getElementById('my-btn');
+btn.addEventListener('click', singing)
