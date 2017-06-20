@@ -1,15 +1,9 @@
-p {
-    color: azure;
+BUTTON {
+    background-color: white;
 }
-h1 {
-    color: cornsilk;
-}
-.friends {
-    color: azure;
-    text-transform: uppercase;
-}
+
 div {
-    background-color: black;
+    color: black
     width: 100%;
     height: 100%;
 }
