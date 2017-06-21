@@ -1,12 +1,10 @@
-/*var button = document.createElement("button");
+var button = document.createElement("button");
 button.innerHTML = "push me";
 var body = document.getElementsByTagName("body")[0];
 button.className = 'button';
 button.style.width = '50px';
 button.style.height = '50px';
 body.appendChild(button);
-
-*/
 
 /*var btn = document.createElement("button");
 var i = document.createTextNode("Click Me");
