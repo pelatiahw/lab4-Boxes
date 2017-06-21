@@ -1,4 +1,14 @@
-var btn = document.createElement("BUTTON")
+/*var button = document.createElement("button");
+button.innerHTML = "push me";
+var body = document.getElementsByTagName("body")[0];
+button.className = 'button';
+button.style.width = '50px';
+button.style.height = '50px';
+body.appendChild(button);
+
+*/
+
+/*var btn = document.createElement("button");
 var i = document.createTextNode("Click Me");
 btn.appendChild(i);
 document.body.appendChild(btn);
@@ -7,7 +17,51 @@ btn.onclick  = function box() {
     var div = document.createElement("div");
     div.className = "black";
     document.body.appendChild(div);
-}
+}*/
+
+
+
+
+
+
+// more variable practice 
+
+var myCountry = "usa";
+
+console.log(myCountry.length);
+
+console.log(myCountry.substring(0,3));
+
+// On line 2, declare a variable myName and give it your name.
+var myName = "ish";
+// On line 4, use console.log to print out the myName variable.
+console.log(MyName);
+// On line 7, change the value of myName to be just the first 2 
+// letters of your name.
+myName = "is";
+// On line 9, use console.log to print out the myName variable.
+console.log(myName);
+
+
+// variables
+
+/*var myAge = 22;
+console.log(myAge);
+
+var myAge = 33;
+console.log(myAge);
+
+var myName = "ISH";
+console.log(myName);
+
+var isOdd = true;
+console.log(isOdd);
+
+var dropTop = true;
+console.log(dropTop);
+
+var yourAge = 500;
+console.log(yourAge);
 
 
 /*
