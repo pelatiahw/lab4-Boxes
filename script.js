@@ -69,3 +69,85 @@ else {
 }
 
 //computer: Who is in G.O.O.D. Musik?
+
+//pop-up box practice
+
+confirm("WHAT AINT GOT NO ROOF!?"); //alert: WHAT AIN'T GOT NO ROOF!?
+prompt("CAR AIN'T GOT NO ROOF!");  //CAR AIN'T GOT NO ROOF!
+if ("10 === 10") {
+    confirm("WHAT AIN'T GOT NO ROOF!?"); //true
+}
+
+else {
+    console.log("false");
+}
+
+//computer: what ain't got no roof!? pop-up
+
+if (10 * 12 - 100 >= 5) {
+    console.log("Phantom thats all red!"); //true
+}
+
+else {
+    prompt("I DON'T REALLY CARE IF YOU CRY!"); //false
+}
+
+//computer: I don't really care if you cry! prompt.
+
+
+
+//Math
+
+if ("Jon".length * 2 / (2+1) === 2 ) {
+    console.log("The answer makes sense!");
+    
+} 
+
+else {
+    console.log("Error Error Error");
+    }
+
+//computer: The answer makes sense!
+
+
+if ("Jon".length * 5 / (2+1) === 5 ) {
+    confirm("21 21!");
+    
+} 
+
+else {
+    console.log("Error Error Error");
+    }
+
+
+//computer: 21 21! pop-up box
+
+if ("steve".length * ("steve".length - "bob".length) / 100 === 50) {
+    console.log("i don't know....");
+}
+
+else {
+    console.log("I didn't feel like doing the math.....");
+}
+
+//computer: I did't feel like doing the math.....
+
+
+
+// modulo
+
+console.log(14 % 3); //2
+console.log(99 % 8); //3
+console.log(11 % 3); //2
+console.log(12 % 5); //2
+console.log(33 % 8); //1
+console.log(99 % 4); //3
+console.log(3 % 70); //3
+console.log(8 % 777); //8
+console.log(66 % 897); //66
+console.log(777 % 3); //0
+console.log(9999 % 1); //0
+console.log(1 % 2); //1
+
+//practice.
+
