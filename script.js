@@ -1,4 +1,17 @@
-/*document.addEventListener("DOMContentLoaded", function() {
+var btn = document.createElement("BUTTON")
+var i = document.createTextNode("Click Me");
+btn.appendChild(i);
+document.body.appendChild(btn);
+
+btn.onclick  = function box() {
+    var div = document.createElement("div");
+    div.className = "black";
+    document.body.appendChild(div);
+}
+
+
+/*
+document.addEventListener("DOMContentLoaded", function() {
     var btn = document.getElementById('my-btn');
     btn.addEventListener('click', function() {
         alert("You clicked the button!");
@@ -10,7 +23,9 @@ btn.onclick = function box() {
     div.className = "black";
     document.body.appendChild(div);
 
-}*/
+}
+
+
 
 //coding notes
 console.log(15 > 4);
@@ -149,5 +164,63 @@ console.log(777 % 3); //0
 console.log(9999 % 1); //0
 console.log(1 % 2); //1
 
+//modulo if/else
+
+//An example of an if/else statement with modulo in the condition
+
+
+if( 4 % 2 === 0 ) {
+    console.log("The first number is even");
+} 
+
+else {
+    console.log("The first number is odd");
+}
+
+//computer: the first number is even.
+
+if (16 % 2 === 0) {
+    console.log("first"); //true
+}
+else {
+    console.log("i'm just here")
+}
+
+//computer: first
+
+if (22 % 2 === 0 ) {
+    console.log("i'm hungry...");
+}
+else {
+    conosle.log("WHERE THA FOOD!?!!?!?!?!?!?");
+}
+
+//computer: i'm hungry...
+
+if (467 % 3 === 0) {
+    confirm("nope.");
+}
+else {
+    console.log("Outkast.");
+}
+
+//computer: Outkast.
+
+
 //practice.
 
+
+
+//substrings:
+
+// Be careful with the substring's letter positions!'
+"wonderful day" .substring(3,7);  
+
+//computer: derf
+
+"hello" .substring(0,2);
+//computer: he
+
+"Pelatiah Ishmael Morgan" .substring(3,18);
+//Computer; atiah Ishmael M
+*/
