@@ -6,7 +6,7 @@ button.style.width = '50px';
 button.style.height = '50px';
 body.appendChild(button);
 
-/*var btn = document.createElement("button");
+var btn = document.createElement("button");
 var i = document.createTextNode("Click Me");
 btn.appendChild(i);
 document.body.appendChild(btn);
@@ -15,7 +15,7 @@ btn.onclick  = function box() {
     var div = document.createElement("div");
     div.className = "black";
     document.body.appendChild(div);
-}*/
+}
 
 
 
